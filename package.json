@@ -11,7 +11,6 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "worker": "tsx src/workers/audit.worker.ts",
-    "postinstall": "node scripts/switch-db.js && prisma generate",
     "db:use-postgres": "node scripts/switch-db.js postgresql",
     "db:use-sqlite": "node scripts/switch-db.js sqlite",
     "db:push": "prisma db push",
